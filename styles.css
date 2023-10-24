@@ -183,6 +183,12 @@ nav>a {
     background-color: #767676;
 }
 
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
 /* Footer */
 footer {
     background-color: #000000;
