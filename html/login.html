@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logint</title>
+    <link rel="stylesheet" href="/css/styleLogin.css" class="css">
+</head>
+<body>
+     <!-- Cabeçalho -->
+     <header>
+        <div class="logotipo">
+            <img src="../img/logotattooshop.png" alt="logotipotattooshop" width="100px">
+        </div>
+        <h1>Galeria de Tattoos</h1>
+        <nav>
+            <a class="navegador" href="../index.html">Home</a>
+            <a class="navegador" href="./login.html">Cadastro</a>
+        </nav>
+    </header>
+    <div class="form-wrapper">
+        <div class="form-container">
+            <h1>Registro</h1>
+            <form action="submit.php" method="post">
+                <fieldset>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="chapter">Senha:</label>
+                    <input type="number" id="password" name="password" required>
+                    
+                    <label for="dateofbirth">Data de Nascimento:</label>
+                    <input type="date" name="dnasc">
+
+                    <label for="tel">Telefone</label>
+                    <input type="tel" name="telefone"><br>
+
+                    <label for="color">Cor Favorita:</label>
+                    <input type="color" name="cor"><br>
+
+                    <label for="file">Arquivo</label>
+                    <input type="file" multiple name="arq"><br>
+                    <br>
+                    <br>
+                    <br>       
+                </fieldset>
+
+                <div class="submit_button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer>
+    <p>
+    <p>
+        <span class="bold">Galeria de Tattos</span> &copy; 2023
+    </p>
+    <p>
+        <span class="bold">instagram.com/asalatatuaria/ | Rua Barão de Cotegipe, 443 - sala 919 - Centro, Rio Grande
+            - RS, 96200-290</span>
+    </p>
+    <span class="bold">instagram.com/estudioguilhermebecker/ | São Paulo X Rio Grande do Sul</span>
+    <span class="bold"></span>
+    <span class="bold"></span>
+    <span class="bold"></span>
+    </p>
+</footer>
+</body>
+</html>
